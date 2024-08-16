@@ -5,9 +5,11 @@
     font-family: "Geologica", sans-serif;
     padding: 10px;
     background-color: rgb(255, 255, 255);
-    margin: -8px -8px 0 -8px;
     border-bottom: 0.2px solid rgb(247, 247, 247);
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .Website-Header-both
 {
@@ -66,9 +68,12 @@
 {
     font-family: "Geologica", sans-serif;
     padding: 10px;
-    margin: 0px -8px -8px -8px;
     border-top: 0.2px solid rgb(247, 247, 247);
-    
+    background-color: rgb(247, 247, 247);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 .Website-footer-container
 {
