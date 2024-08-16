@@ -1,0 +1,95 @@
+
+/*Header Styling*/
+.Website-Header
+{   
+    font-family: "Geologica", sans-serif;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: -8px -8px 0 -8px;
+    border-bottom: 0.2px solid rgb(247, 247, 247);
+
+}
+.Website-Header-both
+{
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.Website-Header-Leftside a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.Website-Header-Leftside
+{
+    display: flex; 
+    align-items: center;   
+    padding-left: 30px; 
+}
+.Website-Header-Leftside-profilepic
+{
+    border-radius: 20px;
+    width: 40px;
+}
+.Website-Header-Leftside-Name
+{
+    font-weight: 700;
+    color:rgb(0, 0, 0);
+    margin-left: 8px;
+}
+
+.Website-Header-navbar-list
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+}    
+.Website-Header-navbar-list div a
+{
+   padding-left: 10px;
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 14px;
+   color: black;
+}
+.Website-Header-navbar-list div a:active
+{
+    color: black;
+}
+
+
+/*Footer Styling*/
+
+.Website-footer
+{
+    font-family: "Geologica", sans-serif;
+    padding: 10px;
+    margin: 0px -8px -8px -8px;
+    border-top: 0.2px solid rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
+}
+.Website-footer-container
+{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    justify-content: center;
+    align-items: center;
+}
+.Website-footer-copy
+{
+    margin-left: 200px;
+    font-size:10px
+}
+.Website-footer-links span a
+{
+    text-decoration: underline;
+    color: black;
+    text-align: start;
+    font-size: 10px;
+}
+.Website-footer-links span a:active
+{
+    color: black;
+}

@@ -1,0 +1,20 @@
+.Website-posts
+{
+    font-family: "Geologica", sans-serif;
+    margin: 3% 30% 3% 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-left: 0.2px solid rgb(247, 247, 247);
+    border-right: 0.2px solid rgb(247, 247, 247);
+}
+.Website-posts p{
+    font-size: 15px;
+}
+.Website-posts span{
+    padding-left: 0;
+    font-size: 10px;
+}
+.Website-posts-individual
+{
+    
+}
